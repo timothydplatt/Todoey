@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA07CC29211461DB003A49E1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07CC28211461DB003A49E1 /* Item.swift */; };
 		AA07CC2F21146556003A49E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA07CC2E21146556003A49E1 /* Default-568h@2x.png */; };
+		AA3177732119E2F2006E880A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3177722119E2F2006E880A /* CategoryViewController.swift */; };
+		AA7661BF21187CA00058F3CE /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA7661BD21187CA00058F3CE /* DataModel.xcdatamodeld */; };
 		AAC054CD2111F72B00523BB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC054CC2111F72B00523BB3 /* AppDelegate.swift */; };
 		AAC054CF2111F72B00523BB3 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC054CE2111F72B00523BB3 /* TodoListViewController.swift */; };
 		AAC054D22111F72B00523BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC054D02111F72B00523BB3 /* Main.storyboard */; };
@@ -17,8 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA07CC28211461DB003A49E1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AA07CC2E21146556003A49E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA3177722119E2F2006E880A /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		AA7661BE21187CA00058F3CE /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		AAC054C92111F72B00523BB3 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC054CC2111F72B00523BB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAC054CE2111F72B00523BB3 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +44,7 @@
 		AA07CC2A211461F1003A49E1 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
-				AA07CC28211461DB003A49E1 /* Item.swift */,
+				AA7661BD21187CA00058F3CE /* DataModel.xcdatamodeld */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -50,6 +52,7 @@
 		AA07CC2B21146213003A49E1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AA3177722119E2F2006E880A /* CategoryViewController.swift */,
 				AAC054CE2111F72B00523BB3 /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -174,8 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3177732119E2F2006E880A /* CategoryViewController.swift in Sources */,
 				AAC054CF2111F72B00523BB3 /* TodoListViewController.swift in Sources */,
-				AA07CC29211461DB003A49E1 /* Item.swift in Sources */,
+				AA7661BF21187CA00058F3CE /* DataModel.xcdatamodeld in Sources */,
 				AAC054CD2111F72B00523BB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +378,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA7661BD21187CA00058F3CE /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA7661BE21187CA00058F3CE /* DataModel.xcdatamodel */,
+			);
+			currentVersion = AA7661BE21187CA00058F3CE /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AAC054C12111F72A00523BB3 /* Project object */;
 }
